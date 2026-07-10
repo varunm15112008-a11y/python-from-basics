@@ -1,0 +1,33 @@
+#user name is name
+#password is 777
+user_name=input("Enter your user_name: ")
+
+inbal=7000
+
+if (user_name=="name"):
+    password=int(input("Enter your password: "))
+    
+    if (password==777):
+        
+        
+         user=input("withdraw(w)/deposit(d)/balance(b): ")
+         
+         if (user=='w'):
+             
+             amount=int(input("Ener your amount: "))
+             inbal=inbal-amount
+             user1=input("Do you want to check your balance(y/n): ")
+             if (user1=='y'):
+                print("Your balance is",inbal)
+         elif (user=='d'):
+             amount=int(input("Ener your amount: "))
+             inbal=inbal+amount
+             user1=input("Do you want to check your balance(y/n): ")
+             if (user1=='y'):
+                print("Your balance is",inbal)
+         elif (user=='b'):
+              print("Your balance is",inbal)
+    else:
+        print("Your password is incorrect")
+else:
+    print("Your user_name is incorrect")
