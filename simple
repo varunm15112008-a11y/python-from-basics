@@ -1,0 +1,15 @@
+# Simple Python Program
+# This program asks for user input and calculates age
+
+# 1. Get the user's name
+name = input("What is your name? ")
+
+# 2. Get the user's birth year and convert it to an integer
+birth_year = int(input("What year were you born? "))
+
+# 3. Calculate the age (assuming the current year is 2026)
+current_year = 2026
+age = current_year - birth_year
+
+# 4. Display a personalized message
+print(f"Hello, {name}! You are {age} years old.")
