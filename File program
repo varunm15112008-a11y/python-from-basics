@@ -1,0 +1,14 @@
+# 1. Writing to a file
+# "w" mode creates a new file or overwrites an existing one
+with open("example.txt", "w") as file:
+    file.write("Hello, Python!\n")
+    file.write("This is a simple file program.\n")
+print("Data successfully written to the file.")
+
+# 2. Reading from the file
+# "r" mode opens the file for reading
+with open("example.txt", "r") as file:
+    content = file.read()
+
+print("\n--- File Content ---")
+print(content)
