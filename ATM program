@@ -2,6 +2,7 @@
 #password is 777
 user_name=input("Enter your user_name: ")
 
+
 inbal=7000
 
 if (user_name=="name"):
