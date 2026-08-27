@@ -4,6 +4,7 @@ count=0
 for data in range(1,data+1,1):
     if (num%data==0):
         count=count+1
+        
 if (count==2):
     print("It is prime number")
 else:
